@@ -8,11 +8,12 @@ import { ModelSdkClient, IModel, projects, domainmodels, microflows, pages, navi
 
 import when = require('when');
 
+const username = 'vincent.beltrani@mendix.com';
+const apikey = 'e2a2cb13-e589-4578-993e-a2e2f6940b8d';
+// Please change your project Id and name to something you prefer.
 
-const username = "{{Username}}";
-const apikey = "{{APIKey}}";
-const projectId = "{{ProjectID}}";
-const projectName = "{{ProjectName}}";
+let projectName = "Vincent - Intro Course";
+let projectId = "a036a95a-ae00-449c-8392-b24e8cb1fe9f";
 const revNo = -1; // -1 for latest
 const branchName = null // null for mainline
 const wc = null;
